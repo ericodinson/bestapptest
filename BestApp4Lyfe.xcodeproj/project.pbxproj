@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DABFB0B01B27AF82001E07ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABFB0AF1B27AF82001E07ED /* AppDelegate.swift */; };
+		DABFB0B21B27AF82001E07ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABFB0B11B27AF82001E07ED /* ViewController.swift */; };
+		DABFB0B51B27AF82001E07ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DABFB0B31B27AF82001E07ED /* Main.storyboard */; };
+		DABFB0B71B27AF82001E07ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DABFB0B61B27AF82001E07ED /* Images.xcassets */; };
+		DABFB0BA1B27AF82001E07ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DABFB0B81B27AF82001E07ED /* LaunchScreen.xib */; };
+		DABFB0C61B27AF82001E07ED /* BestApp4LyfeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABFB0C51B27AF82001E07ED /* BestApp4LyfeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DABFB0C01B27AF82001E07ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DABFB0A21B27AF82001E07ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DABFB0A91B27AF82001E07ED;
+			remoteInfo = BestApp4Lyfe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DABFB0AA1B27AF82001E07ED /* BestApp4Lyfe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BestApp4Lyfe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABFB0AE1B27AF82001E07ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DABFB0AF1B27AF82001E07ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DABFB0B11B27AF82001E07ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DABFB0B41B27AF82001E07ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DABFB0B61B27AF82001E07ED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DABFB0B91B27AF82001E07ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DABFB0BF1B27AF82001E07ED /* BestApp4LyfeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BestApp4LyfeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DABFB0C41B27AF82001E07ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DABFB0C51B27AF82001E07ED /* BestApp4LyfeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestApp4LyfeTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DABFB0A71B27AF82001E07ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABFB0BC1B27AF82001E07ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DABFB0A11B27AF82001E07ED = {
+			isa = PBXGroup;
+			children = (
+				DABFB0AC1B27AF82001E07ED /* BestApp4Lyfe */,
+				DABFB0C21B27AF82001E07ED /* BestApp4LyfeTests */,
+				DABFB0AB1B27AF82001E07ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DABFB0AB1B27AF82001E07ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DABFB0AA1B27AF82001E07ED /* BestApp4Lyfe.app */,
+				DABFB0BF1B27AF82001E07ED /* BestApp4LyfeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DABFB0AC1B27AF82001E07ED /* BestApp4Lyfe */ = {
+			isa = PBXGroup;
+			children = (
+				DABFB0AF1B27AF82001E07ED /* AppDelegate.swift */,
+				DABFB0B11B27AF82001E07ED /* ViewController.swift */,
+				DABFB0B31B27AF82001E07ED /* Main.storyboard */,
+				DABFB0B61B27AF82001E07ED /* Images.xcassets */,
+				DABFB0B81B27AF82001E07ED /* LaunchScreen.xib */,
+				DABFB0AD1B27AF82001E07ED /* Supporting Files */,
+			);
+			path = BestApp4Lyfe;
+			sourceTree = "<group>";
+		};
+		DABFB0AD1B27AF82001E07ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DABFB0AE1B27AF82001E07ED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DABFB0C21B27AF82001E07ED /* BestApp4LyfeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DABFB0C51B27AF82001E07ED /* BestApp4LyfeTests.swift */,
+				DABFB0C31B27AF82001E07ED /* Supporting Files */,
+			);
+			path = BestApp4LyfeTests;
+			sourceTree = "<group>";
+		};
+		DABFB0C31B27AF82001E07ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DABFB0C41B27AF82001E07ED /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DABFB0A91B27AF82001E07ED /* BestApp4Lyfe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DABFB0C91B27AF82001E07ED /* Build configuration list for PBXNativeTarget "BestApp4Lyfe" */;
+			buildPhases = (
+				DABFB0A61B27AF82001E07ED /* Sources */,
+				DABFB0A71B27AF82001E07ED /* Frameworks */,
+				DABFB0A81B27AF82001E07ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BestApp4Lyfe;
+			productName = BestApp4Lyfe;
+			productReference = DABFB0AA1B27AF82001E07ED /* BestApp4Lyfe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DABFB0BE1B27AF82001E07ED /* BestApp4LyfeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DABFB0CC1B27AF82001E07ED /* Build configuration list for PBXNativeTarget "BestApp4LyfeTests" */;
+			buildPhases = (
+				DABFB0BB1B27AF82001E07ED /* Sources */,
+				DABFB0BC1B27AF82001E07ED /* Frameworks */,
+				DABFB0BD1B27AF82001E07ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DABFB0C11B27AF82001E07ED /* PBXTargetDependency */,
+			);
+			name = BestApp4LyfeTests;
+			productName = BestApp4LyfeTests;
+			productReference = DABFB0BF1B27AF82001E07ED /* BestApp4LyfeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DABFB0A21B27AF82001E07ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Eric Aichele";
+				TargetAttributes = {
+					DABFB0A91B27AF82001E07ED = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					DABFB0BE1B27AF82001E07ED = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = DABFB0A91B27AF82001E07ED;
+					};
+				};
+			};
+			buildConfigurationList = DABFB0A51B27AF82001E07ED /* Build configuration list for PBXProject "BestApp4Lyfe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DABFB0A11B27AF82001E07ED;
+			productRefGroup = DABFB0AB1B27AF82001E07ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DABFB0A91B27AF82001E07ED /* BestApp4Lyfe */,
+				DABFB0BE1B27AF82001E07ED /* BestApp4LyfeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DABFB0A81B27AF82001E07ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABFB0B51B27AF82001E07ED /* Main.storyboard in Resources */,
+				DABFB0BA1B27AF82001E07ED /* LaunchScreen.xib in Resources */,
+				DABFB0B71B27AF82001E07ED /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABFB0BD1B27AF82001E07ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DABFB0A61B27AF82001E07ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABFB0B21B27AF82001E07ED /* ViewController.swift in Sources */,
+				DABFB0B01B27AF82001E07ED /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DABFB0BB1B27AF82001E07ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DABFB0C61B27AF82001E07ED /* BestApp4LyfeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DABFB0C11B27AF82001E07ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DABFB0A91B27AF82001E07ED /* BestApp4Lyfe */;
+			targetProxy = DABFB0C01B27AF82001E07ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DABFB0B31B27AF82001E07ED /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DABFB0B41B27AF82001E07ED /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DABFB0B81B27AF82001E07ED /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DABFB0B91B27AF82001E07ED /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DABFB0C71B27AF82001E07ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DABFB0C81B27AF82001E07ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DABFB0CA1B27AF82001E07ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BestApp4Lyfe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DABFB0CB1B27AF82001E07ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BestApp4Lyfe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DABFB0CD1B27AF82001E07ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BestApp4LyfeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BestApp4Lyfe.app/BestApp4Lyfe";
+			};
+			name = Debug;
+		};
+		DABFB0CE1B27AF82001E07ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BestApp4LyfeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BestApp4Lyfe.app/BestApp4Lyfe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DABFB0A51B27AF82001E07ED /* Build configuration list for PBXProject "BestApp4Lyfe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABFB0C71B27AF82001E07ED /* Debug */,
+				DABFB0C81B27AF82001E07ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DABFB0C91B27AF82001E07ED /* Build configuration list for PBXNativeTarget "BestApp4Lyfe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABFB0CA1B27AF82001E07ED /* Debug */,
+				DABFB0CB1B27AF82001E07ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DABFB0CC1B27AF82001E07ED /* Build configuration list for PBXNativeTarget "BestApp4LyfeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DABFB0CD1B27AF82001E07ED /* Debug */,
+				DABFB0CE1B27AF82001E07ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DABFB0A21B27AF82001E07ED /* Project object */;
+}
