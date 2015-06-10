@@ -13,6 +13,9 @@
 		DABFB0B71B27AF82001E07ED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DABFB0B61B27AF82001E07ED /* Images.xcassets */; };
 		DABFB0BA1B27AF82001E07ED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DABFB0B81B27AF82001E07ED /* LaunchScreen.xib */; };
 		DABFB0C61B27AF82001E07ED /* BestApp4LyfeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABFB0C51B27AF82001E07ED /* BestApp4LyfeTests.swift */; };
+		DABFB0D01B27B8A8001E07ED /* IMG_0253.JPG in Resources */ = {isa = PBXBuildFile; fileRef = DABFB0CF1B27B8A8001E07ED /* IMG_0253.JPG */; };
+		DABFB0D21B27B979001E07ED /* Punch.png in Resources */ = {isa = PBXBuildFile; fileRef = DABFB0D11B27B979001E07ED /* Punch.png */; };
+		DABFB0D41B27BA56001E07ED /* needles.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DABFB0D31B27BA56001E07ED /* needles.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		DABFB0BF1B27AF82001E07ED /* BestApp4LyfeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BestApp4LyfeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DABFB0C41B27AF82001E07ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DABFB0C51B27AF82001E07ED /* BestApp4LyfeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestApp4LyfeTests.swift; sourceTree = "<group>"; };
+		DABFB0CF1B27B8A8001E07ED /* IMG_0253.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_0253.JPG; path = BestApp4Lyfe/IMG_0253.JPG; sourceTree = "<group>"; };
+		DABFB0D11B27B979001E07ED /* Punch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Punch.png; sourceTree = "<group>"; };
+		DABFB0D31B27BA56001E07ED /* needles.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = needles.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 		DABFB0A11B27AF82001E07ED = {
 			isa = PBXGroup;
 			children = (
+				DABFB0D11B27B979001E07ED /* Punch.png */,
+				DABFB0D31B27BA56001E07ED /* needles.jpg */,
+				DABFB0CF1B27B8A8001E07ED /* IMG_0253.JPG */,
 				DABFB0AC1B27AF82001E07ED /* BestApp4Lyfe */,
 				DABFB0C21B27AF82001E07ED /* BestApp4LyfeTests */,
 				DABFB0AB1B27AF82001E07ED /* Products */,
@@ -192,7 +201,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DABFB0D41B27BA56001E07ED /* needles.jpg in Resources */,
+				DABFB0D21B27B979001E07ED /* Punch.png in Resources */,
 				DABFB0B51B27AF82001E07ED /* Main.storyboard in Resources */,
+				DABFB0D01B27B8A8001E07ED /* IMG_0253.JPG in Resources */,
 				DABFB0BA1B27AF82001E07ED /* LaunchScreen.xib in Resources */,
 				DABFB0B71B27AF82001E07ED /* Images.xcassets in Resources */,
 			);
